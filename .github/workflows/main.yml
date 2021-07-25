@@ -41,7 +41,7 @@ jobs:
          git add --all
          git commit -m "Add changes" -a
       - name: Push changes
-        uses: baorepo/magic@master
+        uses: baorepo/magic@main
         with:
          github_token: ${{ secrets.GITHUB_TOKEN }}
          branch: ${{ github.ref }}
